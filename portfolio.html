@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+    <div class="lignes">
+        <div class="l1"></div>
+        <div class="l2"></div>
+    </div>
+
+    <div class="container-first">
+        <h1><span>Bienvenue </span><span>sur </span><span>mon</span> <span>portfolio</span></h1>
+        <div class="container-btns">
+            <button onclick="window.location.href = 'apropos.html';"class="btn-first b1">A propos</button>
+            <button onclick="window.location.href = 'montravail.html';"class="btn-first b3">Projets</button>
+            <button onclick="window.location.href = 'competences.html';"class="btn-first b2">Compétences</button>
+            <button onclick="window.location.href = 'contact.html';"class="btn-first b4">Contact</button>
+        </div>
+    </div>
+
+    <img src="img/briefcase-alt.svg" class="logo">
+
+
+    <ul class="medias">
+        <li onclick="window.location.href = 'https://www.facebook.com/bastos743/';"class="bulle"><img src="img/facebook-f.svg" class="logo-medias"></li>
+        <li onclick="window.location.href = 'https://github.com/bastosnz74';"class="bulle"><img src="img/github.svg" class="logo-medias"></li>
+        <li onclick="window.location.href = 'https://www.linkedin.com/in/bastien-marozza-9358ba144/';"class="bulle"><img src="img/linkedin.svg" class="logo-medias"></li>
+    </ul>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

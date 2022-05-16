@@ -1,0 +1,97 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/*===== Page d'accueil =====*/
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 130vh;
+    background: url('img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+  
+.home {
+    width: 100%;
+    height: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+  
+.home-content {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    color: #fff;
+    z-index: 15;
+}
+
+.home-content h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    /* font-weight: bolder; */
+    line-height: 1.1;
+}
+
+.home-content .middle-line {
+    height: 125px;
+    width: 2px;
+    background: #fff;
+    margin: 40px auto;
+    position: relative;
+}
+  
+  
+.home-content button {
+    display: block;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 16px 30px;
+    cursor: pointer;
+}
+
+.home-content button:hover{
+    box-shadow: 0px 0px 20px #890596;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+
+@media (max-width: 550px) {
+    .home-content {
+        width: 300px;
+    }
+
+    .home-content h1 {
+        font-size: 25px;
+    }
+}

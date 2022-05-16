@@ -1,0 +1,44 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  margin-top: 10px;
+  text-align: center;
+  background: #333;
+  background:url('img/paul-volkmer-qVotvbsuM_c-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.back-home button {
+  display: block;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin: 50px auto 0;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+.back-home button:hover{
+  box-shadow: 0px 0px 20px #890596;
+}
+
+
+@media (max-width: 550px) {
+
+  body {
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+  }
+
+  .back-home {
+    margin-left: 200px;
+  }
+
+}
