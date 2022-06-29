@@ -291,22 +291,22 @@ h1 span {
 }
   
 .bar .progress-line.css span{
-    width: 90%;
-  
-}
-  
-.bar .progress-line.javascript span{
     width: 80%;
   
 }
   
-.bar .progress-line.ux-ui span{
+.bar .progress-line.javascript span{
     width: 70%;
   
 }
   
-.bar .progress-line.php span{
+.bar .progress-line.ux-ui span{
     width: 60%;
+  
+}
+  
+.bar .progress-line.php span{
+    width: 40%;
   
 }
   
@@ -354,22 +354,22 @@ h1 span {
 }
   
 .progress-line.css span::after{
-    content: "90%";
-  
-}
-  
-.progress-line.javascript span::after{
     content: "80%";
   
 }
   
-.progress-line.ux-ui span::after{
+.progress-line.javascript span::after{
     content: "70%";
   
 }
   
-.progress-line.php span::after{
+.progress-line.ux-ui span::after{
     content: "60%";
+  
+}
+  
+.progress-line.php span::after{
+    content: "40%";
   
 }
 
